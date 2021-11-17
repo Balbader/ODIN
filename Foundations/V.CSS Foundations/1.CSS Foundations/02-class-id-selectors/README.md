@@ -1,0 +1,36 @@
+# Class and ID Selectors
+
+Knowing how to add class and ID attributes to HTML elements, as well as use their<br>
+respective selectors, is invaluable. It's important to practice using them.<br>
+<br>
+There are several elements in the HTML file provided, which you will have to add<br>
+either class or ID attributes to, as noted in the outcome image below.<br>
+You will then have to add rules in the CSS file provided using the correct selector syntax.<br>
+Look over the outcome image carefully, and try to keep in mind which elements look<br>
+similarly styled (classes), which ones may be completely unique from the rest (ID),<br>
+and which ones have slight variations from others (multiple classes).<br>
+<br>
+It isn't entirely important which class or ID values you use, as the focus here<br>
+is on being able to add the attributes and use the correct selector syntax to style elements.<br>
+For the colors in this exercise, try using a non-keyword value (RGB, HEX, or HSL).<br>
+The properties you need to add to each element are:<br>
+• All odd numbered elements: a light red/pink background, and a list of fonts<br>
+containing Verdana as the first option and sans-serif as a fallback<br>
+• The second element: blue text and a font size of 36px<br>
+• The third element: in addition to the styles for all odd numbered elements, add a font size of 24px<br>
+• The fourth element: a light green background, a font size of 24px, and bold<br>
+
+Quick tip: in VS Code, you can change which format colors are displayed in RGB,<br>
+HEX, or HSL by hovering over the color value in the CSS and clicking the top of the popup that appears!<br>
+
+**NOTE:**<br>
+Part of your task is to add a font to some of these items. Do not worry about the font of the rest of them.<br>
+Your browser's default font might be different than the one displayed and that's OK for this exercise.<br>
+
+## Desired Outcome
+![plot](./desired-outcome.png)
+
+### Self Check
+• Do the odd numbered `p` elements share a class?<br>
+• Do the even numbered `div` elements have unique ID's?<br>
+• Does the Number 3 element have multiple classes?
