@@ -16,9 +16,17 @@ This is all about practicing using these different methods and getting the synta
 <br>
 The properties you need to add to each element are:<br>
 
-• div: a red background, white text, a font size of 32px, center aligned, and bold<br>
-• p: a green background, white text, and a font size of 18px<br>
-• button: an orange background and a font size of 18px
+• `div`: a red background, white text, a font size of 32px, center aligned, and bold<br>
+• `p`: a green background, white text, and a font size of 18px<br>
+• `button`: an orange background and a font size of 18px
 
 ## Desired Outcome
 ![plot](./desired-outcome.png)
+
+### Self Check
+
+• Did you use all three methods of adding CSS to an HTML file?<br>
+• Did you properly link the external CSS file in the HTML file?<br>
+• Does the div element have CSS added via the external method?<br>
+• Does the p element have CSS added via the internal method?<br>
+• Does the button element have CSS added via the inline method?
