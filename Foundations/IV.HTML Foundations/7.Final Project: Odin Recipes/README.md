@@ -1,3 +1,3 @@
 # The Odin Recipes
 
-Check it out here: [a link] (https://www.marvel.com/)
+Check it out here: https://www.marvel.com/
