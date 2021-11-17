@@ -1,8 +1,8 @@
 # Methods for Adding CSS
 
 In this exercise, you're going to practice adding CSS to an HTML file using all three methods:<br>
-• External CSS
-• Internal CSS
+• External CSS<br>
+• Internal CSS<br>
 • Inline CSS
 
 You should only be using type selectors for this exercise when adding styles via the external and internal methods.<br>
