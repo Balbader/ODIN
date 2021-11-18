@@ -1,0 +1,79 @@
+body {
+    /* Depending on the browser, margin might be added so it is good practice
+     * to add margin 0 to the body to make sure to get rid of it */
+    margin: 0;
+}
+/** {*/
+    /*padding: 0%;*/
+    /*margin: 0%;*/
+    /*font-size: 40px;*/
+/*}*/
+
+.box-one {
+    margin-top: 10px;
+    text-align: center;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border: 4px solid red;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+
+    /* the box-sizing attribute allows to constrain the changes applied to 
+     * the element within the size/limits of the element */
+    box-sizing: border-box;
+}
+
+img:hover {
+    border: 10px solid sienna;
+}
+
+#tiger {
+    align-self: start;
+}
+
+#elephant {
+    align-self: center;
+}
+
+#pandas {
+    align-self: end;
+}
+
+div button {
+    font-size: 40px;
+    background-color: black;
+    color: red;
+    border: 4px dashed red;
+    padding: 20px;
+}
+
+/* :nth-of-type() allows me to select an element in a div based on the 
+ * order of elements inside that div.
+ * The number targets the element */
+div button:nth-of-type(1) {
+    background-clip: content-box;
+}
+
+div button:nth-of-type(2) {
+    background-clip: padding-box;
+}
+
+div button:nth-of-type(3) {
+    background-clip: border-box;
+}
+
+/*Note: Check the background-clip: text on mdn*/
+
+h2 {
+    background: linear-gradient(90deg, rgba(181,60,37,1) 0%, rgba(0,255,31,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 300px;
+    font-size: 50px;
+    display: inline-block;
+}
+
