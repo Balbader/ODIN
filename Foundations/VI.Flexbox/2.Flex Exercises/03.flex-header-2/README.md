@@ -18,6 +18,8 @@ pushed to the left and right.<br>
 
 ![desired-outcome](./desired-outcome.png)
 <br>
+<br>
+<br>
 ![desired-outcome](./desired-outcome.gif)
 
 ### Self Check
