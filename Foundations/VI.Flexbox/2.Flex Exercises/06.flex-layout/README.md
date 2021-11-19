@@ -9,8 +9,7 @@ It's perfectly acceptable to google things you're unsure of!<br>
 ### Hint
 
 • You may want to search something like CSS remove list bullets.
-We've done this for you in previous examples, but not here. Yay learning.<br>o
-<br>
+We've done this for you in previous examples, but not here. Yay learning.<br>
 • We've added height: 100vh to the body... this makes the body exactly the
 same height as the viewport. To stick the footer to the bottom you will need
 to use flex and change the direction to column.<br>
