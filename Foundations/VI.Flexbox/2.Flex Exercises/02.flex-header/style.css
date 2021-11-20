@@ -1,0 +1,11 @@
+.header {
+  background: wheat;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-links li {
+  background: white;
+  display: inline;
+  align-items: center;
+}
