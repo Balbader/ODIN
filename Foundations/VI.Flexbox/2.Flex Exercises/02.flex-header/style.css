@@ -2,10 +2,15 @@
   background: wheat;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .left-links li {
   background: white;
   display: inline;
   align-items: center;
+}
+
+.logo {
+  align-self: center;
 }
