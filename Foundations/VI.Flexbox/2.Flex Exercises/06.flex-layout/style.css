@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-right: 40px;
+  gap: 20px;
+}
+
+.header .left-links a {
+  color: #5d5c5c;
+}
+
+.header .right-links a {
+  color: #5d5c5c;
+}
+
+.header .left-links a:hover {
+  color: black;
+}
+
+.header .right-links a:hover {
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25%;
+}
+
+img {
+  height: 250px;
+  width: 600px;
+}
+
+.input input {
+  width: 400px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid lightgrey;
+  margin-bottom: 15px;
+}
+
+button {
+  background: #eeeff0;
+  border: 1px solid #eeeff0;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  background: #eeeff0;
+  height: 40px;
+  padding-bottom: 20px;
+}
+
+.footer .left-links a {
+  color: #5d5c5c;
+}
+
+.footer .right-links a {
+  color: #5d5c5c;
+}
+
+.footer .left-links a:hover {
+  color: black;
+}
+
+.footer .right-links a:hover {
+  color: black;
+}
+
+/*===========================================================================*/
+/* Odin's Solution*/
+/*===========================================================================*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+*/
