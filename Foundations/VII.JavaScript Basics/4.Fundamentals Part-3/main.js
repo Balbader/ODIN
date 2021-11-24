@@ -26,3 +26,13 @@ const capitalize = (str) => {
 };
 
 console.log(capitalize("heLlo wOrLd!"));
+
+const lastLetter = (str) => {
+  let end;
+  for (i = 0; i < str.length; i++) {
+    end = i;
+  }
+  return str[end];
+}
+
+console.log(lastLetter("Hello World!"));
