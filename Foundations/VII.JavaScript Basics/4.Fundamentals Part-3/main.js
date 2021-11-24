@@ -24,7 +24,6 @@ const capitalize = (str) => {
   str = words.join(" ");
   return str;
 };
-
 console.log(capitalize("heLlo wOrLd!"));
 
 const lastLetter = (str) => {
@@ -33,6 +32,6 @@ const lastLetter = (str) => {
     end = i;
   }
   return str[end];
-}
+};
 
 console.log(lastLetter("Hello World!"));
