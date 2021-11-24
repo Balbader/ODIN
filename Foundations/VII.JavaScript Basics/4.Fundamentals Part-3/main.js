@@ -33,5 +33,4 @@ const lastLetter = (str) => {
   }
   return str[end];
 };
-
 console.log(lastLetter("Hello World!"));
