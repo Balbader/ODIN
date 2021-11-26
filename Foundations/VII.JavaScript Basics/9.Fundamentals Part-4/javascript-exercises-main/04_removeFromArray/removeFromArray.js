@@ -1,7 +1,8 @@
 const removeFromArray = (arr, ...args) => {
   args.forEach((arg) => {
+    let argIndex = arr.indexOf(arg);
     for (let i = 0; i < arr.lenght; i++) {
-      arr.splice(arr[arg], 0);
+      arr.splice(argIndex, 1);
     }
   });
 };
