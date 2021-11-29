@@ -1,12 +1,12 @@
-const palindromes = string_ => {
+const palindromes = string => {
 	const regex = /[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g;
 	let reversedString = '';
 
-	string_ = string_.toLowerCase().replace(regex, '');
-	string_ = string_.split(' ').join('');
-	reversedString = string_.split('').reverse().join('');
+	string = string.toLowerCase().replace(regex, '');
+	string = string.split(' ').join('');
+	reversedString = string.split('').reverse().join('');
 
-	if (string_ === reversedString) {
+	if (string === reversedString) {
 		return true;
 	}
 
