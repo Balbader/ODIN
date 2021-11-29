@@ -6,6 +6,10 @@ const sumAll = (a, b) => {
 		return 'ERROR';
 	}
 
+	if (isNaN(a) || isNaN(b)) {
+		return 'ERROR';
+	}
+
 	if (a > b) {
 		temporary = a;
 		a = b;
