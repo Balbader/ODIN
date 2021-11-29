@@ -1,0 +1,23 @@
+{
+  "name": "odin",
+  "version": "1.0.0",
+  "description": "Full Stack JS Path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balbader/ODIN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Balbader/ODIN/issues"
+  },
+  "homepage": "https://github.com/Balbader/ODIN#readme",
+  "devDependencies": {
+    "xo": "^0.47.0"
+  }
+}
