@@ -10,9 +10,9 @@ const sumAll = (a, b) => {
 		return 'ERROR';
 	}
 
-	//if (typeof (a) !== Number || typeof (b) !== Number) {
-	//return 'ERROR';
-	//}
+	if (typeof (a) === 'string' || typeof (b) === 'string') {
+		return 'ERROR';
+	}
 
 	if (a > b) {
 		temporary = a;
