@@ -10,6 +10,10 @@ const sumAll = (a, b) => {
 		return 'ERROR';
 	}
 
+	//if (typeof (a) !== Number || typeof (b) !== Number) {
+	//return 'ERROR';
+	//}
+
 	if (a > b) {
 		temporary = a;
 		a = b;
