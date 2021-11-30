@@ -1,25 +1,26 @@
-const fibonacci = (input) => {
-  const num = 100;
-  let fibonacci = [0, 1];
-  let result;
+const fibonacci = input => {
+	const number_ = 100;
+	const fibonacci = [0, 1];
+	let result;
 
-  if (input < 0) {
-    return 'OOPS';
-  }
+	if (input < 0) {
+		return 'OOPS';
+	}
 
-  if (input === '2') {
-    return 1;
-  }
+	if (input === '2') {
+		return 1;
+	}
 
-  if (typeof (input) === 'string') {
-    input = parseInt(input);
-  }
+	if (typeof (input) === 'string') {
+		input = Number.parseInt(input, 10);
+	}
 
-  for (let i = 1; i < num; i++) {
-    fibonacci.push(fibonacci[i] + fibonacci[i - 1]);
-  }
-  result = parseInt(fibonacci[input]);
-  return result;
+	for (let i = 1; i < number_; i++) {
+		fibonacci.push(fibonacci[i] + fibonacci[i - 1]);
+	}
+
+	result = Number.parseInt(fibonacci[input], 10);
+	return result;
 };
 
 // Do not edit below this line
