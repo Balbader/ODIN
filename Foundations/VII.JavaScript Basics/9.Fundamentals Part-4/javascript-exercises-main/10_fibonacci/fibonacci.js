@@ -1,7 +1,6 @@
 const fibonacci = input => {
 	const number_ = 100;
 	const fibonacci = [0, 1];
-	let result;
 
 	if (input < 0) {
 		return 'OOPS';
@@ -19,8 +18,7 @@ const fibonacci = input => {
 		fibonacci.push(fibonacci[i] + fibonacci[i - 1]);
 	}
 
-	result = Number.parseInt(fibonacci[input], 10);
-	return result;
+	return Number.parseInt(fibonacci[input], 10);
 };
 
 // Do not edit below this line
