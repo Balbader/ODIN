@@ -2,7 +2,7 @@
 // Objects as a Design Pattern
 // ============================================================================
 
-// ex 1
+// Ex 1
 const playerOneName = 'Tim';
 const playerTwoName = 'Jenn';
 const playerOneMaker = 'X';
@@ -38,7 +38,7 @@ gameOver(playerTwo);
 // Object Constructors
 // ============================================================================
 
-// ex 1
+// Ex 1
 function Player(name, marker) {
 	this.name = name;
 	this.marker = marker;
